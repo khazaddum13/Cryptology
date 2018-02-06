@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.BusinessServices", "Cryptology.BusinessServices\Cryptology.BusinessServices.csproj", "{E6715850-085D-4FF5-B4AF-47D56E07020B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.BusinessServices.DAL", "Cryptology.BusinessServices.DAL\Cryptology.BusinessServices.DAL.csproj", "{8CEFE0E9-24F0-412F-9449-0E76182B522B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.BusinessServices.Interfaces", "Cryptology.BusinessServices.Interfaces\Cryptology.BusinessServices.Interfaces.csproj", "{3AB80B1E-7B89-4547-9374-BEF07478F131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.BusinessServices.ALL", "Cryptology.BusinessServices.ALL\Cryptology.BusinessServices.ALL.csproj", "{4A376FCE-3750-4897-B6B4-966E62112C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.Model", "Cryptology.Model\Cryptology.Model.csproj", "{D6965FD8-632B-4F9F-8C17-56DD7741009C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.Console.Management", "Cryptology.Console.Management\Cryptology.Console.Management.csproj", "{E085B15E-334B-459C-A3E0-ACE913013860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptology.BusinessServices.Library", "Cryptology.BusinessServices.Library\Cryptology.BusinessServices.Library.csproj", "{87BBC333-E92A-4211-B2CF-954A1D916D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6715850-085D-4FF5-B4AF-47D56E07020B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6715850-085D-4FF5-B4AF-47D56E07020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6715850-085D-4FF5-B4AF-47D56E07020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6715850-085D-4FF5-B4AF-47D56E07020B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEFE0E9-24F0-412F-9449-0E76182B522B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEFE0E9-24F0-412F-9449-0E76182B522B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEFE0E9-24F0-412F-9449-0E76182B522B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEFE0E9-24F0-412F-9449-0E76182B522B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB80B1E-7B89-4547-9374-BEF07478F131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB80B1E-7B89-4547-9374-BEF07478F131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB80B1E-7B89-4547-9374-BEF07478F131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB80B1E-7B89-4547-9374-BEF07478F131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A376FCE-3750-4897-B6B4-966E62112C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A376FCE-3750-4897-B6B4-966E62112C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A376FCE-3750-4897-B6B4-966E62112C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A376FCE-3750-4897-B6B4-966E62112C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6965FD8-632B-4F9F-8C17-56DD7741009C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6965FD8-632B-4F9F-8C17-56DD7741009C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6965FD8-632B-4F9F-8C17-56DD7741009C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6965FD8-632B-4F9F-8C17-56DD7741009C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E085B15E-334B-459C-A3E0-ACE913013860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E085B15E-334B-459C-A3E0-ACE913013860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E085B15E-334B-459C-A3E0-ACE913013860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E085B15E-334B-459C-A3E0-ACE913013860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BBC333-E92A-4211-B2CF-954A1D916D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BBC333-E92A-4211-B2CF-954A1D916D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BBC333-E92A-4211-B2CF-954A1D916D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BBC333-E92A-4211-B2CF-954A1D916D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ozguryapici.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Cryptology.BusinessServices\\Cryptology.BusinessServices.csproj
+		SccProjectName1 = Cryptology.BusinessServices
+		SccLocalPath1 = Cryptology.BusinessServices
+		SccProjectUniqueName2 = Cryptology.BusinessServices.DAL\\Cryptology.BusinessServices.DAL.csproj
+		SccProjectName2 = Cryptology.BusinessServices.DAL
+		SccLocalPath2 = Cryptology.BusinessServices.DAL
+		SccProjectUniqueName3 = Cryptology.BusinessServices.Interfaces\\Cryptology.BusinessServices.Interfaces.csproj
+		SccProjectName3 = Cryptology.BusinessServices.Interfaces
+		SccLocalPath3 = Cryptology.BusinessServices.Interfaces
+		SccProjectUniqueName4 = Cryptology.BusinessServices.ALL\\Cryptology.BusinessServices.ALL.csproj
+		SccProjectName4 = Cryptology.BusinessServices.ALL
+		SccLocalPath4 = Cryptology.BusinessServices.ALL
+		SccProjectUniqueName5 = Cryptology.Model\\Cryptology.Model.csproj
+		SccProjectName5 = Cryptology.Model
+		SccLocalPath5 = Cryptology.Model
+		SccProjectUniqueName6 = Cryptology.Console.Management\\Cryptology.Console.Management.csproj
+		SccProjectName6 = Cryptology.Console.Management
+		SccLocalPath6 = Cryptology.Console.Management
+		SccProjectUniqueName7 = Cryptology.BusinessServices.Library\\Cryptology.BusinessServices.Library.csproj
+		SccProjectName7 = Cryptology.BusinessServices.Library
+		SccLocalPath7 = Cryptology.BusinessServices.Library
+	EndGlobalSection
+EndGlobal
